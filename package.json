@@ -1,0 +1,14 @@
+{
+  "name": "proof-of-work",
+  "version": "1.0.0",
+  "description": "Hashcash Proof of Work Algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edgar Zavala <ezavile@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "1.0.1"
+  }
+}
