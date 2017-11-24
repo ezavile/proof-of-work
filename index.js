@@ -8,9 +8,9 @@ const rl = readline.createInterface({
 
 rl.question('message to hash: ', (message) => {
   rl.question('difficulty (3 recommended): ', (difficulty) => {
-    console.time('proofOfWorkd')
+    console.time('Finished after')
     const proof = algorithm('', message, difficulty, 0);
-    console.timeEnd('proofOfWorkd')
+    console.timeEnd('Finished after')
     console.log(`PoW Hash: ${proof.hash}`);
     console.log(`Nonce used: ${proof.nonce}`);
     rl.close();
